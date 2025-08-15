@@ -1,4 +1,3 @@
-
 CREATE TABLE Customers(
   Customer_ID INT PRIMARY KEY,
   First_name VARCHAR(50),
