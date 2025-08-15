@@ -28,3 +28,9 @@ DECLARE @AccountBalance DECIMAL (18,2); DECLARE @AccountType VARCHAR(10);
     PRINT 'This is not a chequing account, no fee applied.';
   END
 END;
+
+--Execution statement:-- 
+EXEC AccountMonthlyFee @AccountNumber = '1001';
+EXEC AccountMonthlyFee @AccountNumber = '1005';
+EXEC AccountMonthlyFee @AccountNumber = '1006';
+SELECT*FROM Accounts;
