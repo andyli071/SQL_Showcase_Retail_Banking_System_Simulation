@@ -41,7 +41,7 @@ This project simulates a simplified **retail banking system** using SQL. It incl
 
 - SQL Server (T-SQL)
 - Compatible with: PostgreSQL, SQLite (with minor syntax adjustments)
-- Tools used: Azure Data Studio / SSMS / DBeaver (any SQL client works)
+- Tools used: SSMS
 
 ---
 
