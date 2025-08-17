@@ -1,5 +1,4 @@
-/*Task Description:
-Create a store procedure (WithdrawMoney) to show handling features and raises custom error message.
+/*Create a store procedure (WithdrawMoney) to show handling features and raises custom error message.
 If account don’t exist, print error message. If account exist and withdraw amount more than account balance, 
 print error message. Otherwise continue with the withdraw process and print message ‘Withdrawal successful’. */
 
