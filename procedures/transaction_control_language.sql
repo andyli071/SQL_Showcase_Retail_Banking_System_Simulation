@@ -1,4 +1,3 @@
---Task Description:
 /*Demonstrate the use of TCL and simulate a monthly loan payment.
 If loan accounts exists and account have enough balance, complete the payment transaction. If not print out error message.*/
 
