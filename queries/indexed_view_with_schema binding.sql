@@ -1,4 +1,3 @@
---Task Description:
 /*Create a clustered index (View) to store customer account details, including customer id, full name, account balance.*/
 
 CREATE VIEW CustomerAccounts
