@@ -1,4 +1,3 @@
---Task Description--
 /* Create a store procedure (AccountMonthlyFee) to update account table. If the account has less than $1000 in the chqeuing account, deduct $5 monthly fees. If it the 
 account have more than $1000 in the chequing account, print ‘Account has meet the minimum balance requirement’. Otherwise, print ‘Account is not a chequing account,
 no fee applied.’. */
