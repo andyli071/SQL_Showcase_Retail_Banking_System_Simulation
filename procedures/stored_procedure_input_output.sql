@@ -1,5 +1,4 @@
-/*Task Description:
-Store procedure uses input and output parameters. Return the updated loan amount with two
+/*Store procedure uses input and output parameters. Return the updated loan amount with two
 input parameters: loan number and extra payment.*/
 
 CREATE PROCEDURE PayDownPrincipleAmount
