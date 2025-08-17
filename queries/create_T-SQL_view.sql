@@ -1,6 +1,5 @@
 -- Task Description:
-/*Create a virtual table (View) to store customer net worth, including customer id, full
-name, total account balance, total loan Amount, and total net worth. 
+/*Create a virtual table (View) to store customer net worth, including customer id, full name, total account balance, total loan Amount, and total net worth. 
 Assumption:
 Total account balance = total of accounts balance for the same customer.
 Total loan amount = total of the loan principle amount for the same customer.
