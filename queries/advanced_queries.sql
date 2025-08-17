@@ -5,8 +5,7 @@ JOIN Accounts AS a ON c.Customer_ID = a. Customer_ID
 GROUP BY c.First_name, c.Last_name
 ORDER BY [Total Account Balance];
 
-/* Find the customer who have less than $2000 in accounts and have more than
-$5000 loan*/
+/* Find the customer who have less than $2000 in accounts and have more than $5000 loan*/
 SELECT c.First_name, c.Last_name, a.account_balance, l.Principal_amount
 FROM Customers AS c
 JOIN Accounts AS a ON c.Customer_ID = a.Customer_ID
@@ -19,8 +18,7 @@ FROM Customers AS c
 LEFT JOIN Loans AS l ON c.Customer_ID = l.Customer_ID
 WHERE l.Loan_number IS NULL;
 
-/* Find customer who have loan account, and have a transaction greater than the
-overall average transcation amount*/
+/* Find customer who have loan account, and have a transaction greater than the overall average transcation amount*/
 SELECT c.first_name, c.last_name, t.Amount
 FROM Customers AS c
 JOIN Loans AS l ON c.Customer_ID = l.Customer_ID
