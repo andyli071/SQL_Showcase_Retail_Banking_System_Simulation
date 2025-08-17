@@ -1,4 +1,3 @@
--- Task Description: --
 /*Create stored procedure that store errorlog during updating interest rate in the loan table. */
   
 -- create table errorlog--
