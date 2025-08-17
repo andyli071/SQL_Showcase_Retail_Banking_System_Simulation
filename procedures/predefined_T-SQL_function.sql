@@ -1,4 +1,3 @@
---Task Description:
 /*Create a MSTV (Multi-statement Table-Valued) function that returns the balance status for each account for a specific account number. The status for balance less than $1000 is categorized as low. 
 Balance that is in between $1001 and $3000 are categorized as Normal balance status. Balance withnmore than $3001 is categorized at Heathy balance status.*/
 
