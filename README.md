@@ -34,12 +34,11 @@ This project simulates a simple retail banking system using SQL. It includes tab
 
 ---
 
-## Tech Stack
+## Tools Used
 
 - SQL Server (T-SQL)
 - Compatible with: PostgreSQL, SQLite (with minor syntax adjustments)
-- Tools used: SSMS
-
+- Database: SSMS
 ---
 
 ## 📄 License
