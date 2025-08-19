@@ -1,4 +1,4 @@
-# SQL Showcase - Retail Banking System Simulation
+# Retail Banking System Simulation
 
 This project simulates a simple retail banking system using SQL. It includes table design, sample data, stored procedures, error handling, transactions, and reporting queries. The goal is to show real-world SQL skills for data analysis and backend logic.
 
