@@ -1,6 +1,6 @@
-# Banking System SQL Project
+# SQL Showcase - Retail Banking System Simulation
 
-This project simulates a simplified **retail banking system** using SQL. It includes schema design, complex queries, stored procedures, user-defined functions, error handling, and transaction control. The goal is to model real-world banking operations such as account management, loan processing, and transaction tracking using industry-relevant SQL skills.
+This project simulates a simple retail banking system using SQL. It includes table design, sample data, stored procedures, error handling, transactions, and reporting queries. The goal is to show real-world SQL skills for data analysis and backend logic.
 
 ---
 
@@ -11,7 +11,6 @@ This project simulates a simplified **retail banking system** using SQL. It incl
 - Stored procedures with error handling (`TRY...CATCH`), parameter passing, and conditional logic
 - Transactional control using `BEGIN`, `ROLLBACK`, and `COMMIT`
 - Views, including **indexed views with `SCHEMABINDING`** (SQL Server only)
-- Synthetic dataset (~30K transactions) available for testing and analysis
 
 ---
 
@@ -22,8 +21,6 @@ This project simulates a simplified **retail banking system** using SQL. It incl
 | `schema/`      | Create table statements and ERD |
 | `queries/`     | Basic to advanced SQL queries for analytics and data extraction |
 | `procedures/`  | Stored procedures, error-handling logic, transaction blocks |
-| `dataset/`     | CSV files for importing into your own SQL instance |
-| `screenshots/` | Optional query result previews |
 
 ---
 
@@ -45,26 +42,6 @@ This project simulates a simplified **retail banking system** using SQL. It incl
 
 ---
 
-## Dataset (Synthetic)
-
-- `500` customers  
-- `975` accounts  
-- `28,574` transactions (12 months)  
-- `242` loans  
-> You can import via CSV into any SQL database.
-
----
-
-## Setup Instructions
-
-1. Create the schema using `schema/create_tables.sql`
-2. Import the CSV files from `dataset/` into your SQL environment
-3. Run queries from `queries/` or execute procedures from `procedures/`
-
----
-
-
-
 ## 📄 License
 
 MIT License
@@ -74,5 +51,5 @@ MIT License
 ## 👤 Author
 
 Andy Li  
-[LinkedIn](#) | [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/andylikawing/) | [GitHub](https://github.com/andyli071])
 
