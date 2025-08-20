@@ -18,15 +18,15 @@ This project simulates a simple retail banking system using SQL. It includes tab
 
 | Folder         | Description |
 |----------------|-------------|
-| `schema/`      | Create table statements and ERD |
-| `queries/`     | Basic to advanced SQL queries for analytics and data extraction |
-| `procedures/`  | Stored procedures, error-handling logic, transaction blocks |
+| `schema`      | Create table statements and ERD |
+| `queries`     | Basic to advanced SQL queries for analytics and data extraction |
+| `procedures`  | Stored procedures, error-handling logic, transaction blocks |
+| `sample_business_questions`  | Sample questions, sql queries, screenshot output  |
 
 ---
 
 ## Sample Business Questions Answered
 
-- Which customers have both chequing and savings accounts?
 - What is each customer's total net worth?
 - Who made transactions above the average amount?
 - Which accounts are below the minimum balance and should incur monthly fees?
