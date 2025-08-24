@@ -1,4 +1,4 @@
-# Retail Banking System Simulation
+# Retail Banking System Simulation (SQL)
 
 This project simulates a simple retail banking system using SQL. It includes table design, sample data, stored procedures, error handling, transactions, and reporting queries. The goal is to show real-world SQL skills for data analysis and backend logic.
 
@@ -39,16 +39,4 @@ This project simulates a simple retail banking system using SQL. It includes tab
 - SQL Server (T-SQL)
 - Compatible with: PostgreSQL, SQLite (with minor syntax adjustments)
 - Database: SSMS
----
-
-## 📄 License
-
-MIT License
-
----
-
-## 👤 Author
-
-Andy Li  
-[LinkedIn](https://www.linkedin.com/in/andylikawing/) | [GitHub](https://github.com/andyli071])
 
